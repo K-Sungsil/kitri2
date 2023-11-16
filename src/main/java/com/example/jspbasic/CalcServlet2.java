@@ -1,5 +1,6 @@
 package com.example.jspbasic;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -32,9 +33,11 @@ public class CalcServlet2 extends HttpServlet {
                 break;
         }
 
-        PrintWriter out = resp.getWriter();
-        out.println(num1 + " " + op + " " + num2 + " = " + result);
-
+        req.setAttribute("result", result); // result 복사
+        // 동적 HTML을 응답 : jsp한테 맡기기
+        // jsp 호출 / jsp를 포어드해줘야함 (req.getRequestDispatcher)
+        RequestDispatcher rd = req.getRequestDispatcher("calc2.jsp");
+        rd.forward(req, resp); // 필수
     }
 
     private String plus(String num1, String num2) {

@@ -9,24 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dac96d94-2dc6-4180-99ba-ea8bb1093e68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jspbasic/CalcServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jspbasic/CalcServlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jspbasic/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/calc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="dac96d94-2dc6-4180-99ba-ea8bb1093e68" name="Changes" comment="2023-11-15 수업 / jsp 기초">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calc2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jspbasic/CalcServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jspbasic/CalcServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jspbasic/CalcServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jspbasic/CalcServlet2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jspbasic/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jspbasic/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/calc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/calc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,11 +53,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kitri/IdeaProjects/jsp-basic/src/main/webapp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,6 +68,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kitri\IdeaProjects\jsp-basic\src\main\webapp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kitri\IdeaProjects\jsp-basic\src\main\webapp" />
       <recent name="C:\Users\kitri\IdeaProjects\jsp-basic\src\main\webapp\WEB-INF" />
@@ -181,11 +177,64 @@
       <updated>1700031013195</updated>
       <workItem from="1700031014203" duration="1129000" />
       <workItem from="1700032219423" duration="600000" />
-      <workItem from="1700032827744" duration="4360000" />
+      <workItem from="1700032827744" duration="5001000" />
+      <workItem from="1700093925506" duration="4202000" />
+      <workItem from="1700100994441" duration="50000" />
+      <workItem from="1700101063315" duration="38000" />
+      <workItem from="1700101249579" duration="15000" />
+      <workItem from="1700101306451" duration="25000" />
+      <workItem from="1700101403675" duration="8000" />
+      <workItem from="1700102164041" duration="21000" />
+      <workItem from="1700102591624" duration="1588000" />
+      <workItem from="1700107510737" duration="287000" />
+      <workItem from="1700108958282" duration="148000" />
+      <workItem from="1700109282596" duration="2484000" />
+      <workItem from="1700112103989" duration="112000" />
+      <workItem from="1700116538228" duration="4318000" />
+      <workItem from="1700121466938" duration="622000" />
+      <workItem from="1700122103983" duration="10000" />
+      <workItem from="1700122149405" duration="7000" />
+      <workItem from="1700122245505" duration="12000" />
+      <workItem from="1700122293814" duration="1144000" />
     </task>
+    <task id="LOCAL-00001" summary="2023-11-15 수업 / jsp 기초">
+      <option name="closed" value="true" />
+      <created>1700037749699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700037749699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2023-11-15 수업 / jsp 기초" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-11-15 수업 / jsp 기초" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/jspbasic/CalcServlet2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
